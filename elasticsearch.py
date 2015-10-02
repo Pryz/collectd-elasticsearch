@@ -135,6 +135,9 @@ STATS = {
     'indices.search.fetch-total': Stat("counter", "nodes.%s.indices.search.fetch_total"),
     'indices.search.fetch-time': Stat("counter", "nodes.%s.indices.search.fetch_time_in_millis"),
 
+    ## SEGMENTS
+    'indices.segments.count': Stats("gauge", "nodes.%s.indices.segments.count"),
+
     # JVM METRICS #
     ## MEM
     'jvm.mem.heap-committed': Stat("bytes", "nodes.%s.jvm.mem.heap_committed_in_bytes"),
