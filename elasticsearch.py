@@ -136,7 +136,7 @@ STATS = {
     'indices.search.fetch-time': Stat("counter", "nodes.%s.indices.search.fetch_time_in_millis"),
 
     ## SEGMENTS
-    'indices.segments.count': Stats("gauge", "nodes.%s.indices.segments.count"),
+    'indices.segments.count': Stat("gauge", "nodes.%s.indices.segments.count"),
 
     # JVM METRICS #
     ## MEM
